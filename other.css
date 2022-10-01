@@ -1,0 +1,50 @@
+body{
+    height: 5000px;
+    background-color: #151a20;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.start{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 650px;
+    align-items: center;
+    background-color: #151a20;
+    padding-top: 50px;
+}
+
+.company-title{
+    width: 700px;
+}
+
+.company-label{
+    font-family: Monospace;
+    font-size: 100px;
+    text-shadow: 5px 5px #4e8d8d;
+}
+.rock-img{
+    width: 500px;
+}
+
+.info1{
+    background-color: #dbdbdb;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.glow{
+    font-size: 200px;
+    text-shadow: 0 0 32px #88ffff;;
+}
+
+.huge{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 180px;
+    text-align: center;
+    text-shadow: 10px 10px 0 #346b6b;
+}

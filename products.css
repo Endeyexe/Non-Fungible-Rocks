@@ -1,0 +1,84 @@
+body{
+    background-color: #151a20;
+}
+
+
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #88ffff;
+}
+
+.item{
+    border-width: 2px;
+    border-color: #242a36;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 7px;
+    transition: all 0.3s ease 0s;
+
+}
+
+.item:hover{
+    border-width: 5px;
+}
+
+.item-grid{
+    display: grid;
+    /*"Repeat as many columns that will fit on a screen. Each column should be a minimum of 400px wide and a maximum of 1fr wide."*/
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    column-gap: 15px;
+    row-gap: 20px;
+}
+
+.item-info-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.item-picture{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.item-title{
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    font-size: 30px;
+    color: #D8E3E7;
+    margin-bottom: 15px;
+
+}
+
+.item-desc{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #D8E3E7;
+}
+
+.pricing{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #10141a;
+    border-radius: 100px;
+}
+
+.label{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #D8E3E7;
+}
+
+.item-price{
+    font-family: "Courier New";
+    font-size: 35px;
+    color: #D8E3E7;
+    text-align: center;
+}
